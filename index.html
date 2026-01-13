@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boropod">
     <title>Boropod</title>
+    <link rel="icon" href="src/images/favicon.png">
+
 
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
@@ -18,7 +21,7 @@
 </div>
 
 <div class="header">
-  <img src="src/images/logo.png">
+  <img src="src/images/logo.png" alt="The boropod logo">
 </div>
 
 <div id="loading" class="loading">Loading content...</div>
@@ -26,7 +29,7 @@
 
 <div id="media-player" class="media-player hidden">
     <div class="player-minimize-tab" onclick="togglePlayer()">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <svg width="20" height="20" viewBox="0 0 24 24">
             <path d="M7 10l5 5 5-5z"/>
         </svg>
     </div>
@@ -40,18 +43,18 @@
         </div>
         <div class="player-controls">
             <button class="player-btn" onclick="skipBackward()">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                     <path d="M11.99 5V1l-5 5 5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6h-2c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
                 </svg>
                 <span>15</span>
             </button>
             <button class="player-btn player-btn-play" id="player-play-btn" onclick="togglePlayerPlayback()">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <svg width="32" height="32" viewBox="0 0 24 24">
                     <path id="player-play-icon" d="M8 5v14l11-7z"/>
                 </svg>
             </button>
             <button class="player-btn" onclick="skipForward()">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                     <path d="M12.01 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/>
                 </svg>
                 <span>15</span>
